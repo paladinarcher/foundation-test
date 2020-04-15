@@ -13,6 +13,7 @@ import ErrorableMonthYearContainer from './components/ErrorableMonthYearContaine
 import ErrorableNumberInputContainer from './components/ErrorableNumberInputContainer';
 import ErrorableRadioButtonsContainer from './components/ErrorableRadioButtonsContainer';
 import ErrorableTextAreaContainer from './components/ErrorableTextAreaContainer';
+import ErrorableSelectContainer from './components/ErrorableSelectContainer';
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
       <ErrorableRadioButtonsContainer />
 
       <ErrorableTextAreaContainer />
+
+      <ErrorableSelectContainer />
     </div>
   );
 }
