@@ -7,6 +7,9 @@ import AlertBoxContainer from './components/AlertBoxContainer';
 import AdditionalInfoContainer from './components/AdditinalInfoContainer';
 import BreadcrumbsContainer from './components/BreadcrumbsContainer';
 import CollapsiblePanelContainer from './components/CollapsiblePanelContainer';
+import ErrorableCheckboxGroupContainer from './components/ErrorableCheckboxGroupContainer';
+import ErrorableFileInputContainer from './components/ErrorableFileInputContainer';
+import ErrorableMonthYearContainer from './components/ErrorableMonthYearContainer';
 
 function App() {
   return (
@@ -31,6 +34,12 @@ function App() {
       <ErrorableDateContainer />
 
       <ErrorableCheckBoxContainer />
+
+      <ErrorableCheckboxGroupContainer />
+
+      <ErrorableFileInputContainer />
+
+      <ErrorableMonthYearContainer />
     </div>
   );
 }

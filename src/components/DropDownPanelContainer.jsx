@@ -8,7 +8,7 @@ class DropDownPanelContainer extends Component {
         return (
             <div>
                 <h1>DropDownContainer</h1>
-                <div style={{ backgroundColor: 'navy' }}>
+                <div style={{ backgroundColor: 'green' }}>
                 <DropDownPanel
                     buttonText='Helpdesk'
                     cssClass='va-dropdown'
