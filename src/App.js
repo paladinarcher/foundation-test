@@ -10,6 +10,9 @@ import CollapsiblePanelContainer from './components/CollapsiblePanelContainer';
 import ErrorableCheckboxGroupContainer from './components/ErrorableCheckboxGroupContainer';
 import ErrorableFileInputContainer from './components/ErrorableFileInputContainer';
 import ErrorableMonthYearContainer from './components/ErrorableMonthYearContainer';
+import ErrorableNumberInputContainer from './components/ErrorableNumberInputContainer';
+import ErrorableRadioButtonsContainer from './components/ErrorableRadioButtonsContainer';
+import ErrorableTextAreaContainer from './components/ErrorableTextAreaContainer';
 
 function App() {
   return (
@@ -40,6 +43,12 @@ function App() {
       <ErrorableFileInputContainer />
 
       <ErrorableMonthYearContainer />
+
+      <ErrorableNumberInputContainer />
+
+      <ErrorableRadioButtonsContainer />
+
+      <ErrorableTextAreaContainer />
     </div>
   );
 }
