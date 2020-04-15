@@ -22,6 +22,7 @@ class ErrorableDateContainer extends Component {
     render() {
         return (
             <div>
+                <h1>ErrorableDate</h1>
                 <ErrorableDate
                     onValueChange={date => this.setState({ date })}
                     required={true}
@@ -30,7 +31,7 @@ class ErrorableDateContainer extends Component {
                     date={this.state.date}
                     requiredMessage='Please provide a response'
                     invalidMessage='Please provide a valid date'
-                />;
+                />
             </div>
         );
     }

@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import DropDownPanel from "@department-of-veterans-affairs/formation-react/DropDownPanel";
 
 class DropDownPanelContainer extends Component {
-    state = { open: true }
+    state = { open: false }
 
     render() {
         return (
-            <div style={{ backgroundColor: '#112e51' }}>
+            <div>
+                <h1>DropDownContainer</h1>
+                <div style={{ backgroundColor: 'navy' }}>
                 <DropDownPanel
                     buttonText='Helpdesk'
                     cssClass='va-dropdown'
@@ -15,6 +17,7 @@ class DropDownPanelContainer extends Component {
                     clickHandler={() => this.changeState()}>
                     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper at eros eu suscipit. Ut imperdiet libero et luctus pretium.'
                 </DropDownPanel>
+                </div>
             </div>
         );
     }

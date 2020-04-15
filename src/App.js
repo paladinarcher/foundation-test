@@ -8,13 +8,16 @@ import CollapsiblePanel from '@department-of-veterans-affairs/formation-react/Co
 import DropDownPanel from '@department-of-veterans-affairs/formation-react/DropDownPanel'
 import DropDownPanelContainer from './components/DropDownPanelContainer';
 import ErrorableDateContainer from './components/ErrorableDateContainer';
+import ErrorableCheckBoxContainer from './components/ErrorableCheckBoxContainer';
+import AlertBoxContainer from './components/AlertBoxContainer';
+import AdditionalInfoContainer from './components/AdditinalInfoContainer';
+import BreadcrumbsContainer from './components/BreadcrumbsContainer';
+import CollapsiblePanelContainer from './components/CollapsiblePanelContainer';
 
 function App() {
   return (
     <div className="usa-width-one-whole">
-      <AlertBox headline='Informational Alert' content='This is an alert!' status='info' isVisible />
-      <AlertBox headline='Warning Alert' content='This is an alert!' status='warning' isVisible />
-      <AlertBox headline='Error Alert' content='This is an alert!' status='error' isVisible />
+      <AlertBoxContainer />
 
       {/* doesn't work at all.
       <AcceptTermsPrompt
@@ -23,36 +26,17 @@ function App() {
         onCancel={() => { }}
       />*/}
 
-      <AdditionalInfo triggerText="Additional Information">
-        <ul>
-          <li>info A</li>
-          <li>info B</li>
-          <li>info C</li>
-          <li>info D</li>
-        </ul>
-      </AdditionalInfo>
+      <AdditionalInfoContainer />
 
-      <Breadcrumbs>
-        {[
-          <a href="#" key="1">Home</a>,
-          <a href="#" key="2">Level One</a>,
-          <a href="#" key="3">Level Two</a>
-        ]}
-      </Breadcrumbs>
+      <BreadcrumbsContainer />
 
-      <CollapsiblePanel
-        panelName="Collapsible Panel">
-        <div>This panel defaults to closed.</div>
-      </CollapsiblePanel>
-      {/* error when attemp to open panel */}
-      <CollapsiblePanel
-        panelName="Collapsible Panel" startOpen>
-        <div>This panel defaults to open.</div>
-      </CollapsiblePanel>
+      <CollapsiblePanelContainer />
 
       <DropDownPanelContainer />
 
       <ErrorableDateContainer />
+
+      <ErrorableCheckBoxContainer />
     </div>
   );
 }
