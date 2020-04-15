@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# foundation-test
+
+This project is a testing ground for VA's foundation-react compoents.  It was built using create-react-app which provided
+the project's scaffolding. The rest were customizations needed to bring the components in and drop them all down on a
+single page.
 
 ## Available Scripts
 
