@@ -1,11 +1,5 @@
 import React from 'react';
 import './App.css';
-import AlertBox from '@department-of-veterans-affairs/formation-react/AlertBox';
-import AcceptTermsPrompt from '@department-of-veterans-affairs/formation-react/AcceptTermsPrompt';
-import AdditionalInfo from '@department-of-veterans-affairs/formation-react/AdditionalInfo';
-import Breadcrumbs from '@department-of-veterans-affairs/formation-react/Breadcrumbs';
-import CollapsiblePanel from '@department-of-veterans-affairs/formation-react/CollapsiblePanel'
-import DropDownPanel from '@department-of-veterans-affairs/formation-react/DropDownPanel'
 import DropDownPanelContainer from './components/DropDownPanelContainer';
 import ErrorableDateContainer from './components/ErrorableDateContainer';
 import ErrorableCheckBoxContainer from './components/ErrorableCheckBoxContainer';
