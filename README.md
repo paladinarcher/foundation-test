@@ -2,7 +2,7 @@
 
 This project is a testing ground for VA's foundation-react compoents.  It was built using create-react-app which provided
 the project's scaffolding. The rest were customizations needed to bring the components in and drop them all down on a
-single page.
+single page. The list of foundation-react components can be found [here](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/visual-design). For each component, I create a Container component to do things like show the value that was entered in a <div> or <p> element. The Container component is then added to App.js to display it.
 
 ## Steps taken to set this project up
 
